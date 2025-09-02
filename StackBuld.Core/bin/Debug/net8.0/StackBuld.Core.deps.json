@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "StackBuld.Core/1.0.0": {
+        "dependencies": {
+          "StackBuld.Domain": "1.0.0"
+        },
+        "runtime": {
+          "StackBuld.Core.dll": {}
+        }
+      },
+      "StackBuld.Domain/1.0.0": {
+        "runtime": {
+          "StackBuld.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "StackBuld.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StackBuld.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
